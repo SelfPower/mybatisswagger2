@@ -14,7 +14,6 @@ public class ImgServer {
     private TbsImgsMapper tbsImgsMapper;
 
     public List<TbsImgs> SelAll(){
-
         return tbsImgsMapper.selectAll();
     }
 
